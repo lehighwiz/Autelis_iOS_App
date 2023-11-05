@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05132CD32AF80E550076A183 /* Autelis_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CD22AF80E550076A183 /* Autelis_iOS_AppApp.swift */; };
+		05132CD52AF80E550076A183 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CD42AF80E550076A183 /* ContentView.swift */; };
+		05132CD72AF80E550076A183 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CD62AF80E550076A183 /* Item.swift */; };
+		05132CD92AF80E560076A183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05132CD82AF80E560076A183 /* Assets.xcassets */; };
+		05132CDC2AF80E560076A183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05132CDB2AF80E560076A183 /* Preview Assets.xcassets */; };
+		05132CE62AF80E560076A183 /* Autelis_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CE52AF80E560076A183 /* Autelis_iOS_AppTests.swift */; };
+		05132CF02AF80E560076A183 /* Autelis_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CEF2AF80E560076A183 /* Autelis_iOS_AppUITests.swift */; };
+		05132CF22AF80E560076A183 /* Autelis_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05132CF12AF80E560076A183 /* Autelis_iOS_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05132CE22AF80E560076A183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05132CC72AF80E550076A183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05132CCE2AF80E550076A183;
+			remoteInfo = "Autelis iOS App";
+		};
+		05132CEC2AF80E560076A183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05132CC72AF80E550076A183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05132CCE2AF80E550076A183;
+			remoteInfo = "Autelis iOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05132CCF2AF80E550076A183 /* Autelis iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autelis iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05132CD22AF80E550076A183 /* Autelis_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autelis_iOS_AppApp.swift; sourceTree = "<group>"; };
+		05132CD42AF80E550076A183 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05132CD62AF80E550076A183 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		05132CD82AF80E560076A183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05132CDB2AF80E560076A183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05132CE12AF80E560076A183 /* Autelis iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autelis iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05132CE52AF80E560076A183 /* Autelis_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autelis_iOS_AppTests.swift; sourceTree = "<group>"; };
+		05132CEB2AF80E560076A183 /* Autelis iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autelis iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05132CEF2AF80E560076A183 /* Autelis_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autelis_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		05132CF12AF80E560076A183 /* Autelis_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autelis_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05132CCC2AF80E550076A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CDE2AF80E560076A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CE82AF80E560076A183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05132CC62AF80E550076A183 = {
+			isa = PBXGroup;
+			children = (
+				05132CD12AF80E550076A183 /* Autelis iOS App */,
+				05132CE42AF80E560076A183 /* Autelis iOS AppTests */,
+				05132CEE2AF80E560076A183 /* Autelis iOS AppUITests */,
+				05132CD02AF80E550076A183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05132CD02AF80E550076A183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05132CCF2AF80E550076A183 /* Autelis iOS App.app */,
+				05132CE12AF80E560076A183 /* Autelis iOS AppTests.xctest */,
+				05132CEB2AF80E560076A183 /* Autelis iOS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05132CD12AF80E550076A183 /* Autelis iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				05132CD22AF80E550076A183 /* Autelis_iOS_AppApp.swift */,
+				05132CD42AF80E550076A183 /* ContentView.swift */,
+				05132CD62AF80E550076A183 /* Item.swift */,
+				05132CD82AF80E560076A183 /* Assets.xcassets */,
+				05132CDA2AF80E560076A183 /* Preview Content */,
+			);
+			path = "Autelis iOS App";
+			sourceTree = "<group>";
+		};
+		05132CDA2AF80E560076A183 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05132CDB2AF80E560076A183 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05132CE42AF80E560076A183 /* Autelis iOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				05132CE52AF80E560076A183 /* Autelis_iOS_AppTests.swift */,
+			);
+			path = "Autelis iOS AppTests";
+			sourceTree = "<group>";
+		};
+		05132CEE2AF80E560076A183 /* Autelis iOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05132CEF2AF80E560076A183 /* Autelis_iOS_AppUITests.swift */,
+				05132CF12AF80E560076A183 /* Autelis_iOS_AppUITestsLaunchTests.swift */,
+			);
+			path = "Autelis iOS AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05132CCE2AF80E550076A183 /* Autelis iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05132CF52AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS App" */;
+			buildPhases = (
+				05132CCB2AF80E550076A183 /* Sources */,
+				05132CCC2AF80E550076A183 /* Frameworks */,
+				05132CCD2AF80E550076A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autelis iOS App";
+			productName = "Autelis iOS App";
+			productReference = 05132CCF2AF80E550076A183 /* Autelis iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05132CE02AF80E560076A183 /* Autelis iOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05132CF82AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS AppTests" */;
+			buildPhases = (
+				05132CDD2AF80E560076A183 /* Sources */,
+				05132CDE2AF80E560076A183 /* Frameworks */,
+				05132CDF2AF80E560076A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05132CE32AF80E560076A183 /* PBXTargetDependency */,
+			);
+			name = "Autelis iOS AppTests";
+			productName = "Autelis iOS AppTests";
+			productReference = 05132CE12AF80E560076A183 /* Autelis iOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05132CEA2AF80E560076A183 /* Autelis iOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05132CFB2AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS AppUITests" */;
+			buildPhases = (
+				05132CE72AF80E560076A183 /* Sources */,
+				05132CE82AF80E560076A183 /* Frameworks */,
+				05132CE92AF80E560076A183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05132CED2AF80E560076A183 /* PBXTargetDependency */,
+			);
+			name = "Autelis iOS AppUITests";
+			productName = "Autelis iOS AppUITests";
+			productReference = 05132CEB2AF80E560076A183 /* Autelis iOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05132CC72AF80E550076A183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					05132CCE2AF80E550076A183 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					05132CE02AF80E560076A183 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05132CCE2AF80E550076A183;
+					};
+					05132CEA2AF80E560076A183 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05132CCE2AF80E550076A183;
+					};
+				};
+			};
+			buildConfigurationList = 05132CCA2AF80E550076A183 /* Build configuration list for PBXProject "Autelis iOS App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05132CC62AF80E550076A183;
+			productRefGroup = 05132CD02AF80E550076A183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05132CCE2AF80E550076A183 /* Autelis iOS App */,
+				05132CE02AF80E560076A183 /* Autelis iOS AppTests */,
+				05132CEA2AF80E560076A183 /* Autelis iOS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05132CCD2AF80E550076A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132CDC2AF80E560076A183 /* Preview Assets.xcassets in Resources */,
+				05132CD92AF80E560076A183 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CDF2AF80E560076A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CE92AF80E560076A183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05132CCB2AF80E550076A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132CD52AF80E550076A183 /* ContentView.swift in Sources */,
+				05132CD72AF80E550076A183 /* Item.swift in Sources */,
+				05132CD32AF80E550076A183 /* Autelis_iOS_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CDD2AF80E560076A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132CE62AF80E560076A183 /* Autelis_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05132CE72AF80E560076A183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05132CF22AF80E560076A183 /* Autelis_iOS_AppUITestsLaunchTests.swift in Sources */,
+				05132CF02AF80E560076A183 /* Autelis_iOS_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05132CE32AF80E560076A183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05132CCE2AF80E550076A183 /* Autelis iOS App */;
+			targetProxy = 05132CE22AF80E560076A183 /* PBXContainerItemProxy */;
+		};
+		05132CED2AF80E560076A183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05132CCE2AF80E550076A183 /* Autelis iOS App */;
+			targetProxy = 05132CEC2AF80E560076A183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05132CF32AF80E560076A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05132CF42AF80E560076A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05132CF62AF80E560076A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Autelis iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05132CF72AF80E560076A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Autelis iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05132CF92AF80E560076A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autelis iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Autelis iOS App";
+			};
+			name = Debug;
+		};
+		05132CFA2AF80E560076A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autelis iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Autelis iOS App";
+			};
+			name = Release;
+		};
+		05132CFC2AF80E560076A183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autelis iOS App";
+			};
+			name = Debug;
+		};
+		05132CFD2AF80E560076A183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YY95MLKL6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lehighwiz.Autelis-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autelis iOS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05132CCA2AF80E550076A183 /* Build configuration list for PBXProject "Autelis iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05132CF32AF80E560076A183 /* Debug */,
+				05132CF42AF80E560076A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05132CF52AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05132CF62AF80E560076A183 /* Debug */,
+				05132CF72AF80E560076A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05132CF82AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05132CF92AF80E560076A183 /* Debug */,
+				05132CFA2AF80E560076A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05132CFB2AF80E560076A183 /* Build configuration list for PBXNativeTarget "Autelis iOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05132CFC2AF80E560076A183 /* Debug */,
+				05132CFD2AF80E560076A183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05132CC72AF80E550076A183 /* Project object */;
+}
